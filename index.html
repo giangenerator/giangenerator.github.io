@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>GianGenerator</title>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giangenerator.github.io/">
+    <meta property="og:title" content="GianGenerator 1.0">
+    <meta property="og:description" content="GianGenerator é um site que gera frases aleatórias do gian.">
+    <meta property="og:image" content="https://giangenerator.github.io/gian.png">
+    <link rel="shortcut icon" href="gian.webp" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <h1>GianGenerator</h1>
+      <a href="http://github.com/giangenerator/giangenerator.github.io" target="_blank"><p><i id="gh" class="fa fa-github" aria-hidden="true"> </i>Código fonte</p></a>
+      <p><i class="fas fa-code-branch"></i>Versão: 1.0</p>
+    </div>
+    <div class="main">
+      <div class="message">
+        <img src="gian.webp">
+        <div class="text">
+          <ul>
+            <li id="header">GianThePokem</li>
+            <li id="text">Clique no botão abaixo para gerar uma frase aleatória.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="refresh" onclick="gian()">
+        <i class="fas fa-sync"></i>
+      </div>
+    </div>
+  </body>
+  <script src="gian.js"></script>
+  <script src="https://kit.fontawesome.com/e6bba74522.js" crossorigin="anonymous"></script>
+</html>
